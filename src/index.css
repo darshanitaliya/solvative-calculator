@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hamburgar {
+    cursor: pointer;
+    border: none;
+}
+
+.btn {
+    padding: 20px;
+}
+
+.display {
+    height: 80px;
+    padding: 22px;
+    background-color: gray;
+    text-align: right;
+    color: white;
+    font-size: 2rem;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+}
+
+.calculator {
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+}
+
+.btn {
+    flex: 1;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    width: 6rem;
+    height: 6rem;
+}
+
+.operator {
+    background-color: #f0f0f0;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+}
+
+.btn:active {
+    background-color: #d9d9d9;
+}
+
+.hamburgor-hide {
+    visibility: none;
+}
+
+@media (max-width: 500px) {
+    .btn {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+}
